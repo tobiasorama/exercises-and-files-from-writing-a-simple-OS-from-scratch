@@ -45,3 +45,6 @@ hex_digit:
   ret
 
 include "print_string.asm"
+
+HEX_OUT:
+  db '0x0000',0
