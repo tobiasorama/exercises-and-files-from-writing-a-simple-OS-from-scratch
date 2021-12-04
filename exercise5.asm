@@ -5,9 +5,5 @@ jmp $
 
 include "print_hex.asm"
 
-;global variables
-HEX_OUT:
-  db '0x0000',0
-
 times 510-($-$$) db 0
 dw 0xaa55
